@@ -11,6 +11,14 @@
 		C2BEE7A72C1AD66800A9FB89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEE7A62C1AD66800A9FB89 /* ContentView.swift */; };
 		C2BEE7A92C1AD66A00A9FB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BEE7A82C1AD66A00A9FB89 /* Assets.xcassets */; };
 		C2BEE7AC2C1AD66A00A9FB89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BEE7AB2C1AD66A00A9FB89 /* Preview Assets.xcassets */; };
+		C2ECA3112C1AD7BD006E7FD6 /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA3102C1AD7BD006E7FD6 /* Gestures.swift */; };
+		C2ECA3132C1ADDED006E7FD6 /* GestureSequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA3122C1ADDED006E7FD6 /* GestureSequences.swift */; };
+		C2ECA3152C1AE120006E7FD6 /* HitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA3142C1AE120006E7FD6 /* HitTesting.swift */; };
+		C2ECA3192C1B087F006E7FD6 /* TriggeringEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA3182C1B087F006E7FD6 /* TriggeringEvents.swift */; };
+		C2ECA31B2C1B0B73006E7FD6 /* StateChangesNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA31A2C1B0B73006E7FD6 /* StateChangesNotification.swift */; };
+		C2ECA31D2C1B0C78006E7FD6 /* SpecificAccessibilityNeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA31C2C1B0C78006E7FD6 /* SpecificAccessibilityNeeds.swift */; };
+		C2ECA3202C1B0E69006E7FD6 /* ReduceMotionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA31F2C1B0E69006E7FD6 /* ReduceMotionDemo.swift */; };
+		C2ECA3222C1B0FE5006E7FD6 /* ReduceTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA3212C1B0FE5006E7FD6 /* ReduceTransparency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		C2BEE7A62C1AD66800A9FB89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2BEE7A82C1AD66A00A9FB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2BEE7AB2C1AD66A00A9FB89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2ECA3102C1AD7BD006E7FD6 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
+		C2ECA3122C1ADDED006E7FD6 /* GestureSequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureSequences.swift; sourceTree = "<group>"; };
+		C2ECA3142C1AE120006E7FD6 /* HitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTesting.swift; sourceTree = "<group>"; };
+		C2ECA3182C1B087F006E7FD6 /* TriggeringEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggeringEvents.swift; sourceTree = "<group>"; };
+		C2ECA31A2C1B0B73006E7FD6 /* StateChangesNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateChangesNotification.swift; sourceTree = "<group>"; };
+		C2ECA31C2C1B0C78006E7FD6 /* SpecificAccessibilityNeeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificAccessibilityNeeds.swift; sourceTree = "<group>"; };
+		C2ECA31F2C1B0E69006E7FD6 /* ReduceMotionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceMotionDemo.swift; sourceTree = "<group>"; };
+		C2ECA3212C1B0FE5006E7FD6 /* ReduceTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceTransparency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,7 @@
 		C2BEE7A32C1AD66800A9FB89 /* Flashzilla */ = {
 			isa = PBXGroup;
 			children = (
+				C2ECA30F2C1AD6F0006E7FD6 /* Technique */,
 				C2BEE7A42C1AD66800A9FB89 /* FlashzillaApp.swift */,
 				C2BEE7A62C1AD66800A9FB89 /* ContentView.swift */,
 				C2BEE7A82C1AD66A00A9FB89 /* Assets.xcassets */,
@@ -65,6 +82,45 @@
 				C2BEE7AB2C1AD66A00A9FB89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2ECA30F2C1AD6F0006E7FD6 /* Technique */ = {
+			isa = PBXGroup;
+			children = (
+				C2ECA3172C1B082D006E7FD6 /* Combine */,
+				C2ECA3162C1B0820006E7FD6 /* Gestures */,
+			);
+			path = Technique;
+			sourceTree = "<group>";
+		};
+		C2ECA3162C1B0820006E7FD6 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				C2ECA3102C1AD7BD006E7FD6 /* Gestures.swift */,
+				C2ECA3122C1ADDED006E7FD6 /* GestureSequences.swift */,
+				C2ECA3142C1AE120006E7FD6 /* HitTesting.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		C2ECA3172C1B082D006E7FD6 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				C2ECA31E2C1B0E47006E7FD6 /* SpecificAccessibilityNeeds */,
+				C2ECA3182C1B087F006E7FD6 /* TriggeringEvents.swift */,
+				C2ECA31A2C1B0B73006E7FD6 /* StateChangesNotification.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		C2ECA31E2C1B0E47006E7FD6 /* SpecificAccessibilityNeeds */ = {
+			isa = PBXGroup;
+			children = (
+				C2ECA31C2C1B0C78006E7FD6 /* SpecificAccessibilityNeeds.swift */,
+				C2ECA31F2C1B0E69006E7FD6 /* ReduceMotionDemo.swift */,
+				C2ECA3212C1B0FE5006E7FD6 /* ReduceTransparency.swift */,
+			);
+			path = SpecificAccessibilityNeeds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2ECA31D2C1B0C78006E7FD6 /* SpecificAccessibilityNeeds.swift in Sources */,
+				C2ECA31B2C1B0B73006E7FD6 /* StateChangesNotification.swift in Sources */,
+				C2ECA3192C1B087F006E7FD6 /* TriggeringEvents.swift in Sources */,
+				C2ECA3152C1AE120006E7FD6 /* HitTesting.swift in Sources */,
+				C2ECA3132C1ADDED006E7FD6 /* GestureSequences.swift in Sources */,
+				C2ECA3112C1AD7BD006E7FD6 /* Gestures.swift in Sources */,
 				C2BEE7A72C1AD66800A9FB89 /* ContentView.swift in Sources */,
+				C2ECA3202C1B0E69006E7FD6 /* ReduceMotionDemo.swift in Sources */,
 				C2BEE7A52C1AD66800A9FB89 /* FlashzillaApp.swift in Sources */,
+				C2ECA3222C1B0FE5006E7FD6 /* ReduceTransparency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
