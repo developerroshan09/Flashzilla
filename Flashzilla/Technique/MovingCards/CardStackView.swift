@@ -17,13 +17,15 @@ struct CardStackView: View {
                 .resizable()
                 .ignoresSafeArea()
             VStack {
-                ForEach(0..<cards.count, id: \.self) { index in
-                    CardView(card: cards[index]) {
-                        withAnimation {
-                            removeCard(at: index)
+                ZStack {
+                    ForEach(0..<cards.count, id: \.self) { index in
+                        CardView(card: cards[index]) {
+                            withAnimation {
+                                removeCard(at: index)
+                            }
                         }
+                        .stacked(at: index, in: cards.count)
                     }
-                    .stacked(at: index, in: cards.count)
                 }
             }
         }
