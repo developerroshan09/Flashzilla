@@ -22,6 +22,7 @@
 		C2ECA3252C1B1178006E7FD6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA3242C1B1178006E7FD6 /* CardView.swift */; };
 		C2ECA3272C1B1756006E7FD6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA3262C1B1756006E7FD6 /* Card.swift */; };
 		C2ECA3292C1B1AB6006E7FD6 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA3282C1B1AB6006E7FD6 /* CardStackView.swift */; };
+		C2ECA32D2C1B3F68006E7FD6 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECA32C2C1B3F68006E7FD6 /* EditCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		C2ECA3242C1B1178006E7FD6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C2ECA3262C1B1756006E7FD6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C2ECA3282C1B1AB6006E7FD6 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
+		C2ECA32C2C1B3F68006E7FD6 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				C2ECA3242C1B1178006E7FD6 /* CardView.swift */,
 				C2ECA3262C1B1756006E7FD6 /* Card.swift */,
+				C2ECA32C2C1B3F68006E7FD6 /* EditCards.swift */,
 				C2ECA3282C1B1AB6006E7FD6 /* CardStackView.swift */,
 			);
 			path = MovingCards;
@@ -213,6 +216,7 @@
 				C2ECA3292C1B1AB6006E7FD6 /* CardStackView.swift in Sources */,
 				C2ECA31D2C1B0C78006E7FD6 /* SpecificAccessibilityNeeds.swift in Sources */,
 				C2ECA31B2C1B0B73006E7FD6 /* StateChangesNotification.swift in Sources */,
+				C2ECA32D2C1B3F68006E7FD6 /* EditCards.swift in Sources */,
 				C2ECA3192C1B087F006E7FD6 /* TriggeringEvents.swift in Sources */,
 				C2ECA3152C1AE120006E7FD6 /* HitTesting.swift in Sources */,
 				C2ECA3252C1B1178006E7FD6 /* CardView.swift in Sources */,
